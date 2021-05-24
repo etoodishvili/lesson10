@@ -1,0 +1,35 @@
+@media(max-width: 1050px){
+	.navigation{
+		display: none;
+	}
+	.burger-icon{
+		display: block;
+	}
+}
+
+@media(max-width: 1040px) {
+	.container1{
+		flex-direction: column;
+	    align-items: center;}
+	.left-block{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+@media(max-width: 1040px) {
+	.block1 {
+		width: 48%
+	}
+	.container2{
+		padding: 0 30px;
+	}
+
+}
+@media(max-width: 480px){
+	.block1 {
+		width: 100%
+	}
+}

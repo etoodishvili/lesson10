@@ -1,37 +1,45 @@
 /*/*header*/
 
+.header-bg{
+	background-image: url(../images/banner.jpg);
+	width: 100%;
+	height: 324px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 90px;
 
-
+}
+.container{
+	max-width: 1089px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 10px;
+}
+.nav{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav-ul{
+	display: flex;
+ }
 .title1{
-	position: absolute;
-	top: 31px;
-	left: 139px;
 	color: #FFFFFF;
 	font: 14px;
 	display: inline-block;
 	font-family: 'Poppins', sans-serif;
-
-	
-	
 }
 .title2{
-	position: absolute;
+	margin-top:96px;
 	font-size: 42px;
-	top:146px;
-	left: 139px;
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif;
 	
 }
-.navigation{
-	position: absolute;
-	top:31px;
-    left:700px;
 
-   
-    }
 .nav-li{
-    display: inline-block;
     margin-right: 47px;
 }
 .nav-a{
@@ -40,38 +48,24 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.bannerimg{
-	position: relative;
-}
-
-.img{
-	width: 100%;
-	height: 324px;
-	background-size: cover;
-}
-
-.container{
-	max-width: 1170px;
-	width: 100%;
-}
 /*section1*/
 .container1{
 	width: 1088px;
 	margin:0 auto;
 	display: flex;
+	align-items: center;
 
-	
 }
 .left-block{
-	display:inline-block;
-	width: 444px;
+	max-width: 444px;
+	width: 100%;
 	margin-right: 100px;
 	vertical-align: middle;
 
 }
 .right-block{
-	display:inline-block;
-	width: 536px;
+	max-width: 536px;
+	width: 100%;
 	vertical-align: middle;
 }
 
@@ -89,6 +83,7 @@
 	font-family: 'Poppins', sans-serif;
 	margin-right: 70px;
 	padding-bottom: 10px;
+	font-weight: bold;
 
 }
 
@@ -105,17 +100,30 @@
 
 }
 .read{
-	color: #FFFFFF
 	width: 184px;
 	height: 50px;
-	background-color: #5863F8
+	margin-top: 20px;
+	font-size: 14px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
+.container1 a{
+	color:#FFFFFF;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}
+.img1{
+	margin-right:10px ;
+}
+
 
 /*section-bg*/
 .section-bg{
 	background-image: url(../images/banner2.jpg);
 	width: 100%;
-	/*height: 612px;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 96px;
@@ -134,6 +142,7 @@
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif;
 	max-width: 376px;
+	font-weight: bold;
 
 }
 .container2{
@@ -170,9 +179,8 @@
 .block1 p {
 	width: 221px;
 	text-align: center;
-	/*margin-top: 10px;*/
 }
-.block1 h2 {
+.container2 h2{
 	margin-top:15px;
 	margin-bottom: 22px;
 	font-size: 18px;
@@ -181,9 +189,11 @@
 	height: 50px;
 	text-align: center;
 }
+	
+
 .burger{
 	font-size: 30px;
-	color: red;
+	color:#FFFFFF;
 
 }
 .burger-icon{

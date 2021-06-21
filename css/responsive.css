@@ -7,28 +7,30 @@
 	}
 }
 
-@media(max-width: 1040px) {
+@media(max-width: 1125px) {
 	.container1{
 		flex-direction: column;
-	    align-items: center;}
+	    align-items: center;
+	}
 	.left-block{
-		margin-top: 30px;
 		margin-bottom: 30px;
+	}
+	.header-bg{
+		margin-bottom:0;
 	}
 }
 
-
-
-@media(max-width: 1040px) {
+@media(max-width: 1056px) {
 	.block1 {
-		width: 48%
+		width: 48%;
+		margin-bottom: 10px;
 	}
 	.container2{
 		padding: 0 30px;
 	}
 
 }
-@media(max-width: 480px){
+@media(max-width: 580px){
 	.block1 {
 		width: 100%
 	}
